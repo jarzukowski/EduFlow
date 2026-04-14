@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@prisma/*": [
+        "node_modules/.prisma/client/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "node_modules/.prisma/client/index.d.ts",
+    "src/types/**/*.d.ts",
+    "prisma.config.ts",
+    "prisma/schema.prisma"
+  ]
+}

@@ -1,0 +1,91 @@
+﻿.iconButton {
+  width: 36px;
+  height: 36px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-text);
+
+  cursor: pointer;
+
+  transition:
+    transform var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-fast) var(--ease-out),
+    background var(--dur-fast) var(--ease-out),
+    opacity var(--dur-fast) var(--ease-out);
+}
+
+.iconButton:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-sm);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.iconButton:active {
+  transform: translateY(0);
+}
+
+.iconButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.iconButtonPrimary {
+  width: 36px;
+  height: 36px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(109, 94, 252, 0.22);
+  background: rgba(109, 94, 252, 0.14);
+  color: var(--color-text);
+
+  cursor: pointer;
+
+  transition:
+    transform var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-fast) var(--ease-out),
+    background var(--dur-fast) var(--ease-out),
+    opacity var(--dur-fast) var(--ease-out);
+}
+
+.iconButtonPrimary:hover {
+  transform: translateY(-1px);
+  border-color: rgba(109, 94, 252, 0.30);
+  box-shadow: 0 14px 40px rgba(109, 94, 252, 0.18);
+  background: rgba(109, 94, 252, 0.18);
+}
+
+.iconButtonPrimary:active {
+  transform: translateY(0);
+}
+
+.iconButtonPrimary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.iconSvg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  vector-effect: non-scaling-stroke;
+}
+
+
+

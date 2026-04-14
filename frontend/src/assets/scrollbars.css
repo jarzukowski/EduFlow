@@ -1,0 +1,48 @@
+.scrollArea {
+  overflow: auto;
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+}
+
+.scrollArea {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(245, 246, 255, 0.22) transparent;
+}
+
+.scrollArea::-webkit-scrollbar { width: 10px; height: 10px; }
+.scrollArea::-webkit-scrollbar-track { background: transparent; }
+.scrollArea::-webkit-scrollbar-thumb {
+  background: rgba(245, 246, 255, 0.18);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+.scrollArea::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 246, 255, 0.28);
+}
+
+.hScroll {
+  overflow-x: auto;
+  overflow-y: visible;
+  scrollbar-gutter: stable;
+  overscroll-behavior-x: contain;
+  overscroll-behavior-y: auto;
+}
+
+.hScroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(245, 246, 255, 0.22) transparent;
+}
+
+.hScroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.hScroll::-webkit-scrollbar-track { background: transparent; }
+.hScroll::-webkit-scrollbar-thumb {
+  background: rgba(245, 246, 255, 0.18);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+.hScroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 246, 255, 0.28);
+}
+

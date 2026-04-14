@@ -1,0 +1,102 @@
+# -----------------------------
+# NODE / BACKEND
+# -----------------------------
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# TypeScript build cache
+backend/tsconfig.tsbuildinfo
+
+# Prisma
+backend/prisma/migrations/
+backend/generated/
+backend/generated/*
+
+# Logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+
+# Environment variables
+backend/.env
+backend/.env.*.local
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Temporary/Cache/Runtime files
+backend/tmp/
+backend/temp/
+backend/.cache/
+backend/.ts-node/
+backend/.vscode-test/
+
+# OS-SPECIFIC FILES
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# FRONTEND (jak dodasz)
+# -----------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+# Vue / React config caches
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/.nuxt/
+frontend/.next/
+
+# Environment variables (frontend)
+frontend/.env
+frontend/.env.local
+
+# -----------------------------
+# IDE / EDITOR FILES
+# -----------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# WebStorm
+.idea/
+*.iml
+
+# -----------------------------
+# DOCKER (na przyszłość)
+# -----------------------------
+docker-data/
+docker-compose.override.yml
+.env.docker
+
+# -----------------------------
+# GENERAL
+# -----------------------------
+*.log
+*.pid
+*.seed
+*.dump
+*.tar.gz
+*.zip
+*.tmp
+
+# Ignore coverage (jak dodasz testy)
+coverage/
+
+# Ignore compiled output (for future bundlers)
+out/
+build/
+dist/
