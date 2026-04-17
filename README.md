@@ -29,7 +29,7 @@ Polish version: [README-PL.md](./README-PL.md)
 
 ## Demo
 
-- Video demo: `YouTube link coming soon`
+- Video demo: `(https://www.youtube.com/watch?v=dW1k1w_vdFs)`
 
 ## Screenshots
 
